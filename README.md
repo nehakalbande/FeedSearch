@@ -13,14 +13,14 @@ Table of Contents
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 
-Prerequisites
+## Prerequisites
 
 Before running the project, make sure you have the following installed:
 
 - Node.js (v14 or later)
 - npm (Node Package Manager)
 
-Installation
+## Installation
 
 1. Clone the repository:
 
@@ -88,3 +88,9 @@ To run the unit and integration tests, use the following command:
 ```bash
 npm test
 ```
+
+## Examples 
+http://localhost:3000/api/posts?q="The Lord of the Rings: The Return of the King
+http://localhost:3000/api/posts?page=2
+http://localhost:3000/api/posts?q=the king&sortBy=name&page=1
+
