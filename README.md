@@ -90,7 +90,9 @@ npm test
 ```
 
 ## Examples 
-http://localhost:3000/api/posts?q="The Lord of the Rings: The Return of the King
+
+```
+http://localhost:3000/api/posts?q="The Lord of the Rings: The Return of the King"
 http://localhost:3000/api/posts?page=2
 http://localhost:3000/api/posts?q=the king&sortBy=name&page=1
-
+```
